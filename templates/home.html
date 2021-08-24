@@ -1,0 +1,21 @@
+{% extends "layout.html"%}
+{%block content%}
+<div class='"home'>
+    <h1>Overview</h1>
+    <p>This is web service landing page for the JumpCloud Coding Exercise. In this exercise, I created a simple web service that accomplishes the following</p>
+    <ul>
+        <li>Exposes an HTTP endpoint at the URL <b>[<i> /manage_file</i>]</b> that accepts a JSON payload</li>
+        <li>Depending on the JSON payload, it will either download the sample text file or returns the contents of the text file & displays it in the browser</li>
+        <li>Ensures the service will return proper status codes for all requests</li>
+    </ul>
+
+    <p>In addition, I will be adding the following enhancements to the service</p>
+    <ul>
+        <li>Containerization via Docker</li>
+        <li>Automated Deployment</li>
+        <li>Logging, Metrics & Monitoring</li>
+        <li>Unit Testing via pytest</li>
+    </ul>    
+
+</div>
+{%endblock%}
